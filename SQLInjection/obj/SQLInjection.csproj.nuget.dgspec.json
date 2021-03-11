@@ -1,0 +1,66 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/trevorschmidt/Desktop/IS_414_Lab_5/SQLInjection/SQLInjection.csproj": {}
+  },
+  "projects": {
+    "/Users/trevorschmidt/Desktop/IS_414_Lab_5/SQLInjection/SQLInjection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/trevorschmidt/Desktop/IS_414_Lab_5/SQLInjection/SQLInjection.csproj",
+        "projectName": "SQLInjection",
+        "projectPath": "/Users/trevorschmidt/Desktop/IS_414_Lab_5/SQLInjection/SQLInjection.csproj",
+        "packagesPath": "/Users/trevorschmidt/.nuget/packages/",
+        "outputPath": "/Users/trevorschmidt/Desktop/IS_414_Lab_5/SQLInjection/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/trevorschmidt/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "System.Data.SQLite.Core": {
+              "target": "Package",
+              "version": "[1.0.113.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
